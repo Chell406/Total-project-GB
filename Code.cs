@@ -1,7 +1,7 @@
 ﻿string[] massOfStrings = { "antonim", "ant", "mole", "pow"};
 int massLength = 4;
 
-string[] StringsLessThenThree(string[] inputMassOfStrings, int inputMassLength)
+string[] StringsLessOrEqualThree(string[] inputMassOfStrings, int inputMassLength)
 {
     int outputMassLength = 0;
     int inputMassIndex = 0;
@@ -34,4 +34,4 @@ string[] StringsLessThenThree(string[] inputMassOfStrings, int inputMassLength)
     return outputMassOfStrings;
 }
 
-string[] result = StringsLessThenThree(massOfStrings, massLength);
+string[] result = StringsLessOrEqualThree(massOfStrings, massLength);
